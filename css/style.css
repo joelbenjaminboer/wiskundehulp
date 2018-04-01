@@ -1,3 +1,23 @@
 .home {
-  width: 37px
+  width: 37px;
+}
+
+.jumbotron {
+  border: grey;
+  background-color: #dddfe2;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
+.rood {
+  background-color: red;
+}
+
+.groen {
+  background-color: green;
 }
