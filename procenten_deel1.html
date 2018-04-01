@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="infoport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/procenten.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="container d-flex justify-content-between">
+        <span><a href="index.html"><img class="home" src="img/home.png"/></a></span>
+        <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>procenten</strong>
+          </a>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="album py-5 bg-light" />
+  <div class="container" />
+  <section>
+    <iframe class="video jumbotron" width="1100" height="700" src="https://www.youtube.com/embed/xcezUzUjS5M">
+    </iframe>
+  </section>
+  <div id="vraag1container">
+  <p>waar is procent van af geleid? <br> <br>
+  <input type="radio" name="1" value="A1" id="A1"> centrumpronum <br>
+  <input type="radio" name="1" value="B1" id="B1"> pronum <br>
+  <input type="radio" name="1" value="C1" id="C1"> pro centum <br>
+  <input type="radio" name="1" value="D1" id="D1"> cento prono</p>
+  </div>
+
+  <div id="vraag2container">
+  <p><br>hoeveel procent is 47:100<br> <br>
+  <input type="text" id="vraag2" placeholder="Voer je antwoord in"/></p>
+  </div>
+
+  <div id="vraag3container">
+  <p><br>wat betekent 14% ? <br> <br>
+  <input type="radio" name="2" value="A2" id="A2"> 0.28 <br>
+  <input type="radio" name="2" value="B2" id="B2"> 12:1000 <br>
+  <input type="radio" name="2" value="C2" id="C2"> 7:50 <br>
+  <input type="radio" name="2" value="D2" id="D2"> geen van de bovenstaande antwoorden</p>
+  </div>
+
+  <div id="vraag4container">
+  <p><br>hoeveel procent is 27:90? <br> <br> <input type="text" id="vraag4" placeholder="Voer je antwoord in"/></p>
+  </div>
+
+  <button onclick="antwoordcheck()">controleer</button>
+  <div id="score">goed: 0</div>
+  <div id="fouten">fouten: 0</div>
+</body>
+
+</html>
